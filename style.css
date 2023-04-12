@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.grid img {
+  max-width: 100%;
+  display: block;
+  float:left;
+}
+
+.logo {
+  font-size: 200%;
+  padding: 30px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+  display:flex;
+}
+
+nav {
+  background-color: #000;
+  padding: 0.5em;
+  overflow: hidden;
+  position: sticky;
+  width: 100%;
+  top:0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  flex-direction:row;
+  gap: 1px;
+  width:300px;
+  flex-wrap:wrap;
+}
+
+.photos li img{
+  width:100px;
+}
+
+.feature {
+  width: 200px;
+  padding-inline-end:20px;
+  padding-block-end:20px;
+}
